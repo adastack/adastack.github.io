@@ -271,6 +271,26 @@ a:focus {
     -o-background-size: cover;
 }
 
+.awesome {
+    color:#ffffff;
+    text-shadow: 0px 0px 8px rgb(255, 255, 255);
+    -webkit-animation:colorchange 20s infinite alternate;
+  }
+
+  @-webkit-keyframes colorchange {
+    0% { color: rgb(165, 83, 197); text-shadow: 0px 0px 8px rgb(165, 83, 197); }
+    10% { color: #cb5acf; text-shadow: 0px 0px 8px #cb5acf; }
+    20% { color: #d32f66; text-shadow: 0px 0px 8px #d32f66; }
+    30% { color: #d33449; text-shadow: 0px 0px 8px #d33449; }
+    40% { color: rgb(211, 100, 67); text-shadow: 0px 0px 8px rgb(211, 100, 67); }
+    50% { color: #b96934; text-shadow: 0px 0px 8px #b96934; }
+    60% { color: rgb(168, 161, 55); text-shadow: 0px 0px 8px rgb(168, 161, 55); }
+    70% { color: #7db938; text-shadow: 0px 0px 8px #7db938; }
+    80% { color: #2fc053; text-shadow: 0px 0px 8px #2fc053; }
+    90% { color: #4baac2; text-shadow: 0px 0px 8px #4baac2; }
+    100% {color: rgb(112, 82, 194); text-shadow: 0px 0px 8px rgb(112, 82, 194); }
+  }
+
 #map {
     width: 100%;
     height: 200px;
