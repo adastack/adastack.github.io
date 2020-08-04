@@ -6,7 +6,7 @@ description: "CARDANO STAKING POOL"
 
 # Color settings (hex-codes without the leading hash-tag)
 color:
-  primary-dark: '#0d0d0d' #0d0d0d , 171717
+  primary-dark: '#000000' #0d0d0d , 171717
   links: '#219ab3'
 
 # Footer settings
