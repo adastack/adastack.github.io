@@ -2,6 +2,5 @@
   "name": "ADASTACK",
   "description": "ADASTACK Testnet",
   "ticker": "STACK",
-  "homepage": "https://adastack.net",
-  "extended": "https://adastack.net/adastack.extended-mdtn.json"
+  "homepage": "https://adastack.net"
 }
