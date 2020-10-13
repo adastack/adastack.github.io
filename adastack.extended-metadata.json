@@ -7,9 +7,10 @@
     "url_png_icon_64x64": "https://adastack.net/img/adastack64.png",
     "url_png_logo": "https://adastack.net/img/adastack192.png"
   },
-  "my-pool-ids": [
-    "94864d27407c1dd0569e4acb9c7fa6ec2cc19a6193d9171f2d811232"
-  ]
+    "my-pool-ids": {
+    "0": "94864d27407c1dd0569e4acb9c7fa6ec2cc19a6193d9171f2d811232"
+  },
   "telegram-admin-handle": {
     "0": "KnoZiggeh"
+  }
 }
