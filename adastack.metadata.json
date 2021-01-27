@@ -1,7 +1,7 @@
 {
   "name": "ADASTACK",
-  "description": "ADASTACK (Pool 1 of 2)",
+  "description": "Cardano Staking Pool: ADD A STACK!",
   "ticker": "STACK",
   "homepage": "https://adastack.net",
-  "extended": "https://adastack.net/adastack1.extended-metadata.json"
+  "extended": "https://adastack.net/adastack.extended-metadata.json"
 }
