@@ -5,9 +5,10 @@ url: https://adastack.net
 description: "CARDANO STAKING POOL"
 
 # Color settings (hex-codes without the leading hash-tag)
+ #0d0d0d , 171717
 color:
-  primary-dark: '#000000' #0d0d0d , 171717
-  links: '#219ab3'
+  primary-dark: '#000000'
+  links: '#ffdb4d'
 
 # Footer settings
 footer: ADASTACK
