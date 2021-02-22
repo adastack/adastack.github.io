@@ -5,7 +5,10 @@
   },
   "info": {
     "url_png_icon_64x64": "https://adastack.net/img/adastack64.png",
-    "url_png_logo": "https://adastack.net/img/adastack192.png"
+    "url_png_logo": "https://adastack.net/img/adastack192.png",
+    "social": {
+		  "twitter_handle": "ADA_STACK"
+	  }
   },
   "telegram-admin-handle": [
     "KnoZiggeh"
