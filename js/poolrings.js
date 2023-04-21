@@ -12,16 +12,15 @@ function pool_rings() {
     
     let sat;
     let sta;
-    $.getJSON(`https://js.adapools.org/pools/${pool_id}/summary.json`, function(data) {
+    $.getJSON(`https://js.cexplorer.io/api-static/pool/${pool_id}.json`, function(data) {
     $.each( data.data, function( i, val ) {
-    if(i=='saturated') {sat = parseFloat(val)};
-    if(i=='total_stake') {sta = parseFloat(val / 1e12).toFixed(2)};
+    if(i=='saturation') {sat = parseFloat(val)};
+    if(i=='stake') {sta = parseFloat(val / 1e12).toFixed(2)};
     
     });
     bar.setValue(sat);
     bar.setText(parseInt(sat * 100) + "%<BR>" + sta + "M");
     });
     }
-    pool_ring("94864d27407c1dd0569e4acb9c7fa6ec2cc19a6193d9171f2d811232", "ring1");
-    pool_ring("7b0d46f6bf28634ab4d273b76e9768793b465ea8398563659ab8d2df", "ring2");
+    pool_ring("pool1jjry6f6q0swaq457ft9eclaxaskvrxnpj0v3w8edsyfryml3vj6", "ring1");
   }
