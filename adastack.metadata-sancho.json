@@ -2,5 +2,6 @@
   "name": "ADASTACK",
   "description": "ADASTACK Sancho",
   "ticker": "STACK",
-  "homepage": "https://adastack.net"
+  "homepage": "https://adastack.net",
+  "extended": "https://adastack.net/adastack.metadata-sancho-extended.json"
 }
