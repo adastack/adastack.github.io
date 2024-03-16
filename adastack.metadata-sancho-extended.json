@@ -1,0 +1,40 @@
+
+{
+  "info": {
+        "url_png_icon_64x64": "https://adastack.net/img/adastack64.png",
+        "url_png_logo": "https://adastack.net/img/adastack192.png",
+        "location": "Country, Continent",
+        "social": {
+            "twitter_handle": "ADA_STACK",
+            "telegram_handle": "KnoZiggeh",
+            "facebook_handle": "",
+            "youtube_handle": "",
+            "twitch_handle": "",
+            "discord_handle": "",
+	    "github_handle": "adastack"
+        },
+        "company": {
+            "name": "",
+            "addr": "",
+            "city": "",
+            "country": "",
+            "company_id": "",
+            "vat_id": ""
+        },
+        "about": {
+            "me": "",
+            "server": "",
+            "company": ""
+        },
+	"rss": ""
+    },
+
+  "telegram-admin-handle": [
+        "KnoZiggeh"
+    ],
+
+  "my-pool-ids": [
+        "28e76a936b147f1b1a0bd125b122baac1263fe38b05abd332e6a880a"
+    ]
+}
+
