@@ -12,10 +12,10 @@ function pool_rings() {
     
     let sat;
     let sta;
-    $.getJSON(`https://js.cexplorer.io/api-static/pool/${pool_id}.json`, function(data) {
+    $.getJSON(`https://api.koios.rest/api/v1/pool_info?_pool_bech32_ids=\{${pool_id}\}&select=live_saturation,live_stake`, function(data) {
     $.each( data.data, function( i, val ) {
-    if(i=='saturation') {sat = parseFloat(val)};
-    if(i=='stake') {sta = parseFloat(val / 1e12).toFixed(2)};
+    if(i=='live_saturation') {sat = parseFloat(val)};
+    if(i=='live_stake') {sta = parseFloat(val / 1e12).toFixed(2)};
     
     });
     bar.setValue(sat);
